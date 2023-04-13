@@ -1,0 +1,6 @@
+name: my-workflow
+on: workflow_dispatch
+jobs:
+  caller-workflow:
+    runs-on: ubuntu-20.04
+    uses: andmill/action-test/.github/workflows/echo-standalone.yml
