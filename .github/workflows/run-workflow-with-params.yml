@@ -2,7 +2,6 @@ me: my-workflow
 on: workflow_dispatch
 jobs:
   caller-workflow:
-    uses: andmill/action-test/.github/workflows/echo-standalone.yml@main
+    uses: andmill/action-test/.github/workflows/with-inputs.yml@main
     with:
       some-input: Andy!!
-        
